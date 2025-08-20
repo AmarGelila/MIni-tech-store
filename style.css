@@ -1,0 +1,160 @@
+
+header .actions > div a , header .actions > div button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+header .actions > div a:hover , header .actions > div button:hover {
+    opacity: .7;
+}
+
+header .material-icons{
+    display: inline-block;
+    width: 20px;
+}
+
+.carousel-inner{
+    height: calc(100vh - 56px);
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 30px;
+}
+
+@media ( max-width: 992px ){
+
+    header .actions {
+        order: -1;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header .buttons button{
+}
+#navbar-toggler:hover{
+    opacity: .5;
+}
+#navbar-toggler span{
+    font-size: 35px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+#menu-head{
+    margin-bottom: 15px;
+}
+@media (min-width: 768px)
+{
+    .menu{
+        flex-grow: 1;
+        margin-right: 15px;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        position: static;
+        width: auto;
+        height: auto;
+        overflow-y: hidden;
+    }
+    .menu ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+    .menu ul li{
+        margin-bottom: 0;
+    }
+    #menu-head , #navbar-toggler{
+        display: none;
+    }
+    #navbar a{
+        border-bottom: none;
+    }
+}
+
+/* Slider  */
+/* :root{
+    --primary-color: #333;
+    --secondary-color: #eee;
+    --pop-color: #e10;
+}
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 0 15px;
+}
+
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--secondary-color);
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    display: none;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.menu.smallshow{
+    display: flex;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin-bottom: 15px;
+}
+.menu ul a{
+    display: block;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding: 3px;
+} */
